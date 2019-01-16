@@ -1,0 +1,68 @@
+<main id="content">
+  <div class="hero">
+    <!-- イラストがくる -->
+    <img class="hero_img" src="#">
+  </div>
+  <div class="intro">
+    <div class="hed-block">
+      <h1 class="intro_hed hedA">あなたの街の電気屋さん</h1>
+      <h1 class="intro_hed hedB">（株）ナイス電気商会</h1>
+      <h1 class="intro_hed hedC">茨城県Hitachi市にあるPanasonicのお店</h1>
+    </div>
+    <div class="intro_dek">
+      <p class="tagline">あなたとともに</p>
+    </div>
+    <p class="intro_byline">
+    </p>
+    <div class="prose">
+      <p>
+        パナソニックショップとは、パナソニック（旧松下電器産業）ほかパナソニックグループ（旧松下グループ）各社の製品を取次・販売する特約店（電器店）の通称である。1957年、日本最初の系列電器店（街の電器屋さん）ネットワークとして発足した。当初はパナソニック製品のみを扱う「ナショナルショップ」と他社製品も同時に扱う「ナショナル店会」とに二分されていた。以後、今日まで国内最大の地域電器店ネットワークである。地域電器店の業界団体「全国電機商業組合連合会」加盟店の7〜8割を占める。
+      </p>
+      <p>
+        なお、このような製品提案から販売・アフターサービスを一貫して行う販売店や、メーカー100%出資代理店より仕入れる手法は高度成長期を支えた流通形態であり、同様の販売店は日本国内の家電流通販売店舗数の9割を占める。
+      </p>
+    </div>
+    <div class="tease-link">
+      <p>ナイス電気の場所のリンク</p>
+    </div>
+  </div>
+  <div id="decades">
+    <div class="year-nav">
+      <% 1953.step(2019, 5) do |year| %>
+        <div class="decade-wrapper">
+          <div class="decade-height">
+            <p class="decade decade-<%= year %>"><%= year %>年</p>
+          </div>
+        </div>
+      <% end %>
+      <div class="dots">
+      </div>
+    </div>
+    <div class="middle-chunk">
+      <% 1953.step(2019, 5) do |year| %>
+        <div class="wordcloud-wrapper wordcloud-<%= year %>">
+          <p class="decade-title">...<%= year %>...</p>
+          <div class="decade-text">
+            日立市多賀の映画館の前で電気器具の販売を昭和２８年に始めました。昭和３４年に場所の良い駅前に移動し、当時は松下・日立製品・東芝他様々なメーカーを取り扱っており、その片すみではレコード販売、そして父の趣味で釣道具の販売を１０坪位の店で営業しておりました。
+          </div>
+          <div class="word-cloud_container">
+            その５年のキーワードを並べた画像
+          </div>
+        </div>
+      <% end %>
+    </div>
+    <div class="sidebar">
+      <p class="mentions">なんか宣伝文句でも並べようかな</p>
+    </div>
+  </div>
+  <div class="conclusion">
+    <div class="prose">
+      <p>
+        旧松下電器創業者の松下幸之助は、高度経済成長期の課題である後継者が足りないという店主達の声に応え、次代のショップ経営を担う人材を養成する学校「松下電器商学院（現：松下幸之助商学院）」を1970年5月、滋賀県草津市に創設した。これは同業他社にはない取り組みで、以後、ショップは今日まで他社系列店を圧倒するネットワークを形成していく。
+      </p>
+    </div>
+  </div>
+  <div class="method">
+    <p>（株）ナイス電気商会 茨城県日立市多賀町2-19-8 0294-36-1188</p>
+  </div>
+</main>
